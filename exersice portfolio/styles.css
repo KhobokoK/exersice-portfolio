@@ -1,0 +1,231 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+header {
+  background-color: #4ad5f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+
+h1.portfolio-heading {
+  color: rgb(7, 7, 7);
+}
+
+.hire-me-button {
+  color: rgb(255, 1, 1);
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 3px solid rgb(255, 1, 1);
+  border-radius: 1rem;
+  box-shadow: 2cm;
+}
+
+.see-my-work-button {
+  background-color: #4ad5f8;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+main {
+  padding: 20px;
+}
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile-image {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+#profile-image img {
+  max-width: 100%;
+}
+
+#profile-info {
+  flex: 2;
+  justify-content: space-evenly;
+}
+#services {
+  background-color: rgb(240, 232, 232);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+.services-heading {
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.subheadings {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.subheading {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.subheading:nth-child(2) {
+  background-color: #4ad5f8;
+  color: white;
+}
+
+#mobile-app p {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image-container img {
+  margin: 10px;
+}
+
+#awesome-section {
+  background-color: rgb(240, 232, 232);
+  color: black;
+  padding: 20px;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+.Hear-me-more-button {
+  color: #4ad5f8;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #4ad5f8;
+  border-radius: 1rem;
+}
+
+#client-feedback {
+  background-color: #4ad5f8;
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-profile img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.client-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+#navigation {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation-bar li {
+  margin-right: 20px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.seach-button {
+  color: #4ad5f8;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #4ad5f8;
+  border-radius: 1rem;
+}
+
+#social-media {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-right: 0;
+}
+.katai {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+.header a:hover{
+  padding: 1rem;
+  background-color: white;
+
+}
